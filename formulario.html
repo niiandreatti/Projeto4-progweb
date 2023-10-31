@@ -1,0 +1,45 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="conteiner">
+        <form method="POST" action="processa.php">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"  required>
+            
+            <label for="ra">RA:</label>
+            <input type="text" id="ra" name="ra" required>
+            
+            <label>Sexo:</label>
+            <input type="radio" id="masculino" name="sexo" value="Masculino" >
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="sexo" value="Feminino">
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="outro" name="sexo" value="Outro">
+            <label for="outro">Outro</label>
+            
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" required>
+            
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" required>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="text" id="email" name="email" required>
+            
+            <button type="submit" name="submit" id="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+</html>
