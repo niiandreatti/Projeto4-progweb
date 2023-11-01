@@ -32,7 +32,7 @@
             margin-top: 5px;
         }
         
-        button {
+        #submit{
             margin-top: 10px;
             padding: 10px 20px;
             background-color: #007bff;
@@ -43,6 +43,6 @@
         }
         
         /* Estilos para o formulário de envio */
-        button:hover {
+        #submit:hover {
             background-color: #0056b3;
         }

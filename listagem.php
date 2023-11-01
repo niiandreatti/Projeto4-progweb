@@ -18,8 +18,7 @@ usort($alunos, function ($a, $b) {
         <h1>Listagem de Alunos</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Menu</a></li>
-                <li><a href="cadastro.html">Cadastro de Alunos</a></li>
+                <li><a href="index.html">Cadastro de Alunos</a></li>
             </ul>
         </nav>
     </header>
