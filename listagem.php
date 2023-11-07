@@ -11,6 +11,7 @@ usort($alunos, function ($a, $b) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="listagem.css">
     <title>Listagem de Alunos</title>
 </head>
 <body>
@@ -18,7 +19,7 @@ usort($alunos, function ($a, $b) {
         <h1>Listagem de Alunos</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Cadastro de Alunos</a></li>
+                <li><p>Clique aqui para navegar na tela de cadastro:<a  class = "link" href="index.html">Cadastro de Alunos</a></p></li>
             </ul>
         </nav>
     </header>
